@@ -5,6 +5,7 @@
 //! A usage example of the can peripheral can be found at [examples/spi.rs]
 //!
 //! [examples/spi.rs]: https://github.com/stm32-rs/stm32f3xx-hal/blob/v0.9.2/examples/spi.rs
+#![allow(invalid_reference_casting)]
 
 use core::{fmt, marker::PhantomData, ops::Deref, ptr};
 
